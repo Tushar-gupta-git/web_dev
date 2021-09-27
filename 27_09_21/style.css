@@ -62,6 +62,15 @@ nav ul li a:hover::after{
     width: 35px;
     cursor: pointer;
 }
+.name_logo{
+font-size: 23px;
+color: white;
+font-weight: 700;
+margin-left: -20px;
+}
+.name_logo span{
+    font-size: 32px;
+}
 /* text on main */
 .textbox{
 color: white;
