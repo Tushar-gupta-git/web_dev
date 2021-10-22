@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+
 /* First page */
 header{
     background-image: url("IMG/header-bg.png");
@@ -14,26 +16,26 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: whitesmoke;
+    color: rgb(189, 147, 147);
 }
 .container{
 /* border: yellow 1px solid; */
 text-align: center;
 }
 .container> h2{
-    font-size: 50px;
+    font-size: 60px;
 }
 .container>h3{
 font-size: 30px;
 text-transform: capitalize;
-margin: 20px 0px;
+margin: 30px 0px;
 }
 .container>button{
     font-size: 20px;
 padding: 6px;
-border-radius: 6px;
+border-radius: 10px;
 border: none;
-    background: linear-gradient( to right ,#f67062,#fc5296 );
+    background: linear-gradient( to right ,#e95e4e,#fc5296 );
     outline: none;
     color: whitesmoke;
     cursor: pointer;
